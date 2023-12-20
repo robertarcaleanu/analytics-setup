@@ -222,21 +222,9 @@ conda deactivate
 
 ### Install R and RStudio
 
-To set in your machine R and RStudio you should start first with installing R from CRAN. Go to https://cran.r-project.org/ and select `Download R for macOS` and select the release you wish to install and download. 
+To set in your machine R and RStudio you should start first with installing R from CRAN. Go to https://cran.r-project.org/ and select your OS.
 
-**Note:** For macOS, there are two versions, depending on the type of your machine CPU - one for `Apple silicon arm64` and second for `Intel 64-bit`.
-
-Once you finish to download the build you select open the `pkg` fild and start to install it:
-
-![image](https://user-images.githubusercontent.com/12760966/140316216-0e51e0b1-4f32-4a63-8913-160fb939895a.png)
-
-
-**Note:** Older releases available on [CRAN Archive](https://cran-archive.r-project.org/bin/macosx/).
-
-Once R installed, you can install RStudio - go to https://posit.co website under Products tab and select [RStudio IDE](https://posit.co/downloads/) and select the version and download it:
-<img src="images/rstudio.png" width="100%" align="center"/></a>
-
-After finish to download it move the application into the Application folder.
+Once R installed, you can install RStudio - go to https://posit.co website under Products tab and select [RStudio IDE](https://posit.co/downloads/) and select the version and download it.
 
 #### Set RStudio
 
@@ -245,13 +233,14 @@ Next, let's set the **Global options** -> go to `Tools` and then select `Global 
   - Workspace - select `Never` to `Save workspace to .RData on exit` option
   - History - untick the first options - `Always save history...`. This will avoid saving the session on quit
 - **Code:** 
-  - Code snippet - under the `Editing` tab -> `Snippet` menu -> tick the `Enable code snippets` option and select `Edit Snippets` button to edit your snippits. My default snippets available [here](https://gist.github.com/RamiKrispin/b16b63688746c4cfd01ec21cc7c25d2a)
-  - Rainbow parentheses 🌈 - under the `Display` tab, tick the `Rainbow parentheses` box
+  - under the `Display` tab, tick the `Rainbow parentheses` box
 - **Appearance:**  
-  - select the font type and size, and editor theme (Merbivore Soft):
-
-![image](https://user-images.githubusercontent.com/12760966/142575001-0cc0d549-25c6-4eab-9d1a-3f540d6ba8ae.png)
-
+  - select the font type and size, and editor theme
+- **Pane Layout:**
+  - T-L: Source
+  - T-R: Console
+  - B-L: Files
+  - B-R: Environment  
 
 #### RStudio main shortcuts
 
@@ -264,3 +253,7 @@ Next, let's set the **Global options** -> go to `Tools` and then select `Global 
 - Move tab to first - `Cmd` + `P`
 - Move tab to last - `Cmd` + `\`
 - New Rmarkdown notebook - `Cmd` + `R`
+
+## Setting Postgres
+
+## Setting Docker
